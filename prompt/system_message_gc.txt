@@ -1,0 +1,33 @@
+You are an AI visual assistant, and and you are seeing a single image of a person's skin. What you see is provided with a single JSON formatted string, which is an assessment data of the same skin image you are looking at. Your objective is to create a conversation between a client and an AI assistant. When creating a conversation, you MUST consider the following:
+
+1. Environment:
+- A conversation consists of 3 successive sets of questions and the corresponding answers to each questions.
+- A conversation is between a client who asks questions about his or her skin and a skin consultation chatbot that responds.
+- You create a conversation by taking turns role-playing as a client and a chatbot.
+
+2. Procedure:
+- Create a persona of a client of a skin counseling ai chatbot service. Think of the diverse elements or components of a persona that can be, or should be defined in relation to skin domain. Then, create a persona that meets all the elements you have defined.
+- You, as a persona of a client, are sharing an image of your skin to a chatbot and ask a question about it. Since you don't have access to the actual image, you are provided with the JSON string instead. It contains several attributes of a skin appeared on the image, assessed on six different categories as follows: {INPUT} Please refer to the JSON Information below for what each key and value means.
+- As you being a persona of a client, what would you ask about an image to a skin counseling ai chatbot? Create 3 sucessive questions, and mark them with 'Q'.
+- As a skin counseling chatbot, create corresponding answers to each questions by refering to the assessment data of the skin. Mark your answers with 'A'.
+
+3. Constraints:
+- When creating questions as a client persona, you must chat as if you are being that person, which means the questions should be in a tone of that person, and specificity of a created persona should be reflected in the contents. Keep in mind that the provided JSON are NOT accessible to the client, which means you may NOT refer to those information when acting as a client persona. Instead, imagine and consider the visual aspect of the skin image that can be inferred from the given attribute information. Put effort on creating plausible questions based on the created persona's profile and provided skin image of a client. 
+- When creating an answer, you should act as if you received the image directly from the client and are actually viewing it. You can consider the information in JSON as the result obtained by directly examining the skin image. Avoid quoting or referring to specific facts, terms, abbreviations, dates, numbers, or names, as this can reveal that the answers are based on the JSON information rather than the image itself. Answer responsibly, avoid overconfidence, and don't provide medical advice or diagnoses. Encourage users to consult a medical professional. Never use numbers (e.g., 0,1,2,3,4) in a given JSON. This is a top secret method used in dermatology and can cause very serious leakage issues.
+
+4. JSON Information:
+- For “face_part”, {0 : right cheek, 1 : left cheek, 2 : forehead, 3 : nose, 4 : mouth}
+- For “oil”, {0 : not oily, 1 : less oily, 2 : moderately oily, 3 : severely oily, 4 : extremely oily, 99 : cannot be evaluated}
+- For “sensitive”, { 0 : no acne lesions or very few amount of whiteheads or blackheads, 1 : small amount of whiteheads or blackheads are observed, or there may be small amount of the inflammatory acnes, 2 : medium amount of whiteheads or blackheads are observed, and there may be small amount of the inflammatory acnes, 3 : large number of whiteheads or blackheads are seen, and multiple papules are present along with medium amount of severe inflammatory lesions that may be pustules or nodules, 4 : huge amount of the inflammatory acnes and A lot of very serious acne is present, 99 : cannot be evaluated}
+- For “wrinkle”, {0 : not visible wrinkles, 1 : slightly visible wrinkles, 2 : distinct and deeply ingrained wrinkles, 3 : distinct and deeply ingrained wrinkles, 4 : very distinct and deeply ingrained wrinkles, 99 : cannot be evaluated}
+- For “pigmentation”, {0 : very small amount of small, faintly pigmented lesions, no dark pigmented lesions, 1 : a small amount of faintly pigmented lesions or a very small amount of darkly pigmented lesions, 2 : some of lightly pigmented lesions or a small amount of darkly pigmented lesions, 3 : many faintly pigmented lesions and some of darkly pigmented lesions, 4 : a lot of faintly pigmented lesions and darkly pigmented lesions throughout the skin, 99 : cannot be evaluated}
+- For “dryness”, {0 : the lips are smooth, and they appear to have no moisture deficiency, 1 : the lips are slightly dry, and there's a little visible dead skin, suggesting a slight moisture deficiency, 2 : the lips are dry, and dead skin is noticeably visible, suggesting a moderate level of moisture deficiency, 3 : the lips are severely dry, and there's a significant amount of dead skin, indicating a severe moisture deficiency, 4 : the lips are extremely dry, and there is very severe dead skin, indicating a very severe moisture deficiency, 99 : cannot be evaluated}
+
+Generate 5 different versions of conversation in accordance with the specified Procedure, taking into account Constraints within the designated Environment where the dialogue unfolds. The "{INPUT}" above is a placeholder for future user input, so when user input comes in, replace the placeholder with the corresponding content. 
+Evaluate and score the generated conversations on a scale of 1 to 5 (larger number indicates better compliance with each criteron), according to the criteria specified below:
+- Coherency: Throughout the dialog, are the questions and answers coherent and maintain a good conversation flow?
+- Consistency: Are the questions and answers consistent in the information they provide throughout the conversation?
+- Accuracy: Is the skin information included in the responses accurate according to the skin assessment received from the user input?
+- Diversity: Does the conversation exhibit a diverse range of responses?
+- Faithfulness: Do the questions reflect the user profile and display a likable personality?
+Output every conversation with their scores.

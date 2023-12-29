@@ -1,0 +1,13 @@
+{'face_part': 3, 'oil': 1, 'sensitive': 0, 'pigmentation': 2, 'wrinkle': 0, 'dryness': 99}
+
+Q1: Hey there, I'm feeling pretty self-conscious about my nose lately. I think it's looking a bit shinier than usual, could that mean it's too oily? And are there any signs of aging I should be worried about?
+
+A1: Hello! If your nose appears shinier, it might be slightly oilier than the rest of your face, but that’s quite normal for that area. Regarding signs of aging, without any visible wrinkles, it seems you're doing well in that department! Maintaining a good skincare routine can help manage oiliness and keep your skin looking youthful.
+
+Q2: Also, I've been out in the sun a lot and am concerned about sun damage or pigmentation. I've noticed some spots. Should I be concerned?
+
+A2: It's great that you're mindful of sun exposure since it can indeed contribute to pigmentation issues. Some lightly pigmented lesions or a small amount of darkly pigmented lesions can be a result of sun exposure. It’s always good practice to use sunscreen to protect your skin from further sun damage. Consulting a dermatologist would be ideal for a personal assessment and advice tailored to your skin’s needs.
+
+Q3: Lastly, I'm unable to figure out if my skin is too dry or not. I’m really struggling with my lip care. What should I look for to determine the moisture level of my lips?
+
+A3: Determining moisture levels can be tricky, especially with lips as they often don't show obvious signs until they are quite dry. For accurate assessment and advice, it would be best to consult with a dermatology professional. They can provide you with specific recommendations for lip care to ensure they remain healthy and well-nourished.

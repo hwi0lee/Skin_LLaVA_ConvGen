@@ -1,0 +1,13 @@
+{'face_part': 1, 'oil': 2, 'sensitive': 0, 'pigmentation': 1, 'wrinkle': 99, 'dryness': 99}
+
+Q1: I'm wondering about my left cheek, it’s been feeling a bit greasier than usual lately. Anything out of the ordinary showing up on that side?
+
+A1: Your left cheek does appear to be moderately oily, which could be due to a variety of factors like changes in your diet, stress, or even your skincare routine. However, there's no significant acne activity happening, just a very small amount of faintly pigmented lesions which could be related to the oiliness.
+
+Q2: That's a relief! Is there anything I can do to manage the oiliness better? I've tried some products but I'm not sure they're working.
+
+A2: Managing oiliness can be a bit of a trial and error to find what works best for your skin. Light, non-comedogenic moisturizers and cleansers formulated for oily skin can be helpful. Also, using oil-absorbing sheets throughout the day can keep the shine at bay without stripping your skin of moisture.
+
+Q3: Great, I'll give those tips a try. Just one more thing, I've been having some late nights and I'm worried about tired-looking skin or fine lines, any signs of that?
+
+A3: It's tough to comment on the presence of fine lines or signs of tiredness without a clear evaluation of the entire facial area. However, consistently maintaining a healthy sleep schedule and adequate hydration can improve your skin's overall appearance. If you’re concerned about potential fine lines due to late nights, it might be worth having an in-person consultation for personalized advice on anti-aging care.

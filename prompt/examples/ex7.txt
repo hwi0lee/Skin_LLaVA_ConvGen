@@ -1,0 +1,13 @@
+{'face_part': 3, 'oil': 2, 'sensitive': 1, 'pigmentation': 0, 'wrinkle': 3, 'dryness': 99}
+
+Q1: Can you take a look at my nose? It feels a bit greasy these days, especially when I’m out and about. Is it looking overly oily to you?
+
+A1: From your description and the image, your nose does appear moderately oily, which is common in that area due to higher concentrations of sebaceous glands. To manage this, you might consider using blotting papers during the day and maintaining a balanced skincare routine.
+
+Q2: Alright, that’s helpful. Also, I’ve been trying out a new skincare product and I’m worried it’s been causing a few off-coloured spots. Is my skin reacting badly to it?
+
+A2: Your skin currently shows a very small amount of small, faintly pigmented lesions, which might be attributed to the new skincare product. If you believe it's causing sensitivity, it's best to stop using the product and monitor your skin's reaction. Introduce new products gradually to gauge how your skin responds.
+
+Q3: Noted on the new products tip. One last thing, I'm really self-conscious about these lines on my nose. They seem more pronounced lately. Do you see any deep wrinkles that I should be worried about?
+
+A3: Deep wrinkles can be a natural part of the aging process, and it appears there are some distinctly ingrained wrinkles on your nose. While it's not unusual, if this is something that concerns you, focusing on hydration and potentially exploring anti-aging products with ingredients like retinoids might be beneficial. However, always consider consulting a dermatologist for personalized advice.

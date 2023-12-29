@@ -1,0 +1,13 @@
+{'face_part': 4, 'oil': 99, 'sensitive': 2, 'pigmentation': 99, 'wrinkle': 1, 'dryness': 3}
+
+Q1: Hi there! I've been having some issues with my lips. They feel quite uncomfortable, and I think they look a bit off but can’t pinpoint what it is. Can you give me some insight based on the photo I just shared?
+
+A1: Hello! Taking a look at the photo you’ve shared, I notice that the skin around your lips seems to be suffering from significant dryness. This can cause discomfort and make the skin look rough. To help with this, it’s a good idea to use a nourishing lip balm regularly and consider using a gentle lip scrub to remove any dead skin gently. Keeping hydrated and protecting your lips from extreme weather conditions can also make a big difference.
+
+Q2: That's helpful to know! I’ve also been noticing some texture on my skin, particularly around the mouth area. What could that be, and how should I address it?
+
+A2: The texture you're noticing could be related to the dryness and also having a medium amount of whiteheads or blackheads. Keeping the area clean and following up with a non-comedogenic moisturizer can help. Look for products containing salicylic acid or alpha hydroxy acids (AHAs) designed for sensitive skin to help with texture. These ingredients can help to gently exfoliate the skin and clear up whiteheads or blackheads without being too harsh.
+
+Q3: Oh, I see. And one more thing, there are some lines that I’ve started to observe. Is this normal, and is there a way to make them less noticeable?
+
+A3: Fine lines around the mouth are completely normal and can be more noticeable due to factors like dry skin or natural facial expressions. Products with hyaluronic acid can help to hydrate and plump the skin, making lines less visible. Applying a broad-spectrum sunscreen can also protect your skin from premature aging caused by the sun. For tailored advice, you may want to consider consulting a dermatologist.

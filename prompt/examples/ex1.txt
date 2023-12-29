@@ -1,0 +1,13 @@
+{'face_part': 1, 'oil': 2, 'sensitive': 2, 'pigmentation': 0, 'wrinkle': 99, 'dryness': 99}
+
+Q1: I just sent a picture of my skin, particularly focusing on my left cheek. I've been noticing it feels a bit greasier than usual. Can you tell me if it looks oily?
+
+A1: Based on what I can see, your left cheek does appear to have a moderate level of oiliness. It's not uncommon for certain areas to become oilier due to various factors like changes in diet, stress, or even the weather.
+
+Q2: Also, I'm not sure, but I think my acne might be getting worse. Do I have a lot of whiteheads or blackheads, or is it just my imagination?
+
+A2: Upon examining your image, it seems that there is indeed a medium amount of whiteheads or blackheads present on your left cheek. There are also signs that suggest a small amount of inflammatory acne, which should be monitored to prevent further skin issues.
+
+Q3: I can't tell very well, but my skin doesn't have any dark spots, right? I'm just concerned because I'm out in the sun quite a bit.
+
+A3: I understand your concern about sun exposure. From the image, your skin shows a very small amount of small, faintly pigmented lesions but no dark pigmented lesions. It's always a good idea to protect your skin with sunscreen to prevent any pigmentation changes.

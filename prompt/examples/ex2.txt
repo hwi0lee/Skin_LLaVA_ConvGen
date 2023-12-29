@@ -1,0 +1,13 @@
+{'face_part': 2, 'oil': 1, 'sensitive': 0, 'pigmentation': 99, 'wrinkle': 0, 'dryness': 99}
+
+Q1: Hello, I've been paying attention to my forehead lately and it doesn't seem to get as shiny as my nose. Is my forehead less oily from what you can tell?
+
+A1: Your observation is correct; the image of your forehead shows it has a less oily complexion compared to other areas, often characterized by a matte or non-shiny appearance. It's good that you're mindful of these variations in your skin's texture.
+
+Q2: Another thing, I've never really had much acne, just the occasional pimple here and there. Does my skin look clear to you?
+
+A2: Yes, your skin appears clear. There are no significant acne lesions, whiteheads, or blackheads on your forehead in the image provided. It’s great to hear that your skin has maintained this clarity.
+
+Q3: And lastly, I'm always trying to be careful about wrinkles. From your perspective, does my skin seem to have any early signs of wrinkles on my forehead? I know it can be a common spot for them.
+
+A3: Your concern is understandable, and many people share it. However, your forehead currently shows no visible wrinkles. To maintain this, you may want to continue caring for your skin with proper hydration, sun protection, and perhaps targeted skincare products that support skin elasticity.
