@@ -14,6 +14,9 @@ from typing import Dict, Optional, Union, Sequence, List
 
 @dataclass
 class GeneratorArgument:
+    api_key: str = field()
+    api_endpoint: str = field()
+    api_version: str = field()
     seed: int = field(default=42)
     version: Optional[str] = field(default="v0")
     log: bool = field(default=False)
@@ -49,7 +52,7 @@ def generate_conversation(system_message, samples, query, model_name):
         client = AzureOpenAI(
             azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"),
             api_key = os.getenv("AZURE_OPENAI_KEY"),
-            api_version = "2023-08-01-preview"
+            api_version = os.getenv("AZURE_OPENAI_VERSION")
         )
     # elif model_name in public:
     #     client = OpenAI(
@@ -104,8 +107,9 @@ if __name__ == "__main__":
     CFG = parser.parse_args_into_dataclasses()[0]
 
     # Set OpenAI API Key and seed
-    os.environ['AZURE_OPENAI_KEY'] = '7f9fc78bc5c44ad9a9f46cff6e1f6562'
-    os.environ['AZURE_OPENAI_ENDPOINT'] = 'https://coresearch.openai.azure.com/'
+    os.environ['AZURE_OPENAI_KEY'] = CFG.api_key
+    os.environ['AZURE_OPENAI_ENDPOINT'] = CFG.api_endpoint
+    os.environ['AZURE_OPENAI_VERSION'] = CFG.api_version
     random.seed(CFG.seed)
 
     # Select image-paired annotation JSON files to generate conversations with
