@@ -1,2 +1,6 @@
-<h2>Command</h2>
-<code>python convgen.py</code>
+# Command
+<pre>
+<code>
+python convgen.py
+</code>
+</pre>
