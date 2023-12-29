@@ -1,4 +1,4 @@
 <h2>Command</h2>
-```bash
-python convgen.py
-```
+<code>
+  python convgen.py
+</code>
