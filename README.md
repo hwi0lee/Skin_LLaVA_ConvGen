@@ -2,6 +2,7 @@
 <div style="background-color: #1E1E1E; padding: 10px;">
     <pre style="margin: 0; color: #D4D4D4;"><code>python convgen.py --api_key ${API_KEY} --api_version ${API_VERISON} --seed 42 --version v0 --log True --print False --num_sample ${NUMBER_OF_SEED_SAMPLE} --num_example ${NUMBER_OF_EXAMPLE} --root_dir ${PATH_TO_JSON_ANNOT} --system_path ${PATH_TO_SYSTEM_MESSAGE} --exmaple_path ${PATH_TO_EXAMPLE_PROMPT} --output_path ${PATH_TO_SAVE_GENERATED_CONV} </code></pre>
 </div>
+
 # Skin-LLaVa Convgen
 
 # Methods
@@ -41,7 +42,7 @@
     - 평가 레이블{'face_part': 2, 'oil': 1, 'sensitive': 1, 'pigmentation': 99, 'wrinkle': 0, 'hydration': 99}
     - 사진 (Data privacy를 위해 모자이크 처리)
     
-    ![Untitled](Skin-LLaVa%20Convgen%20bc068aa20ba343cba24037229e7ac4b4/Untitled.png)
+    <img src="https://drive.google.com/file/d/1-A22Ic1QkpmfUSW7wIsD5AgRdq_JOfyP/view?usp=sharing">
     
     1. 기존 프롬프트에 의한 생성 결과
         
@@ -73,8 +74,8 @@
         
         A3: Having no visible wrinkles can be a sign that your skin is currently maintaining good elasticity and shows signs of being well taken care of. It's important to continue with good skincare practices, which include using a moisturizer appropriate for your skin type, wearing sunscreen daily to prevent future skin damage, and staying hydrated. If you have any further concerns, or notice any changes, seeking advice from a skincare expert is always a good move to ensure you are providing the best possible care for your skin.
         
-        - 기존 Conversation set의 문제점과 Persona Prompt를 통해 개선된 점
-        1. 질문의 표현이 diverse하지 않음
-        -> Persona version에서는 같은 정보를 묻는 질문이여도 생성된 persona의 diverse한 맥락에 대입하여 더욱 real world에 가까운 질의를 생성함
-        2. 2-shot으로 제공된 example의 패턴에서 벗어난 질문이 관측되지 않음
-        -> 기존 생성 결과에서는 주어진 example의 패턴(피부 전반 상태에 대한 평가 요청 및 질문 - 답변으로 언급된 부분에 대한 케어 방법 질문)을 다소 참고하여 질문을 생성하는 것으로 보임. 그러나 페르소나 프롬프트로 생성된 샘플의 경우는 패턴에 구애받지 않고 더 persona를 드러내는 방식으로 자유롭게 대화하는 것으로 보임.
+- 기존 Conversation set의 문제점과 Persona Prompt를 통해 개선된 점
+1. 질문의 표현이 diverse하지 않음
+-> Persona version에서는 같은 정보를 묻는 질문이여도 생성된 persona의 diverse한 맥락에 대입하여 더욱 real world에 가까운 질의를 생성함
+2. 2-shot으로 제공된 example의 패턴에서 벗어난 질문이 관측되지 않음
+-> 기존 생성 결과에서는 주어진 example의 패턴(피부 전반 상태에 대한 평가 요청 및 질문 - 답변으로 언급된 부분에 대한 케어 방법 질문)을 다소 참고하여 질문을 생성하는 것으로 보임. 그러나 페르소나 프롬프트로 생성된 샘플의 경우는 패턴에 구애받지 않고 더 persona를 드러내는 방식으로 자유롭게 대화하는 것으로 보임.
