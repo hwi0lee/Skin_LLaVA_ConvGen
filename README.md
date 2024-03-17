@@ -42,7 +42,7 @@
     - 평가 레이블{'face_part': 2, 'oil': 1, 'sensitive': 1, 'pigmentation': 99, 'wrinkle': 0, 'hydration': 99}
     - 사진 (Data privacy를 위해 모자이크 처리)
     
-    <img src="https://drive.google.com/file/d/1-A22Ic1QkpmfUSW7wIsD5AgRdq_JOfyP/view?usp=sharing">
+    <img src="./Untitled.png">
     
     1. 기존 프롬프트에 의한 생성 결과
         
